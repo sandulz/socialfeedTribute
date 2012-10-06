@@ -1,1 +1,425 @@
-index.html 
+<!DOCTYPE html>        
+<!-- Designed/Developed by Alexander Close | www.AlexanderClose.com -->
+<html lang="en">
+<head> 
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>  
+  <meta content="utf-8">
+  <meta name="description" content="In tribute to The Social Feed, a page showcasing the work produced.">    
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <title>The Social Feed - Tribute</title>
+  <link rel="stylesheet" href="css/style.css"> 
+
+  <!-- slidejs animation -->  
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="/js/slides.min.jquery.js"></script>   
+  <script>
+	$(function(){
+		$('#slides').slides({
+      pagination: false,
+      generatePagination: false,
+      effect: 'fade',
+			play: 9000,
+			fadeSpeed: 800
+		}); 
+		$('#slides_two').slides({
+      pagination: false,
+      generatePagination: false,
+		  effect: 'fade',
+		  play: 4000,
+		  fadeSpeed: 400
+		})         
+	});	
+  </script>   
+  
+  <!-- scroll animation -->      
+  <script src="js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script> 
+  <script src="js/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script>  
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('#navigation').localScroll({duration:800});
+  });
+  </script>  
+  
+  <!-- prettyphoto slideshow -->  
+  <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+  <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>                                                                       
+</head>      
+       
+<!-- ================ -->
+<!-- = body content = -->
+<!-- ================ -->  
+<body>                     
+<div id="banner">  
+  <div class="container">      
+  <!-- navigation -->      
+      <nav id="navigation">            
+        <img id="toplogo" src="/images/logo.png" alt="">                                          
+        <li class="copywriting">
+          <a href="#restaurants" class="dropdown-toggle" data-target="" data-toggle="dropdown">
+            <span>         
+              Copywriting
+            </span>
+          </a>           
+          <ul class="dropdown-menu unstyled pull-left dropdown-copywriting">
+            <li class="">
+              <a href="#restaurants" class="">
+                <span>
+                  Restaurants
+                </span>
+              </a>
+            </li>          
+            <li class="">
+              <a href="#socialMedia" class="">
+                <span>
+                  Social Media
+                </span>
+              </a>
+            </li> 
+            <li class="">
+              <a href="#press" class="">
+                <span>
+                  Press
+                </span>
+               </a>
+             </li>
+          </ul>
+        </li><!-- .copywriting -->                    
+        <li class="producedMedia">
+          <a href="#producedMedia" class="dropdown-toggle" data-target="" data-toggle="dropdown">
+            <span>         
+              Produced Media
+            </span>
+          </a>           
+          <ul class="dropdown-menu unstyled pull-left dropdown-producedMedia">
+            <li class="">
+              <a href="#pictures" class="">
+                <span>
+                  Pictures
+                </span>
+              </a>
+            </li>          
+            <li class="">
+              <a href="#video" class="">
+                <span>
+                  Video
+                </span>
+              </a>
+            </li>  
+          </ul>
+        </li><!-- .producedMedia -->                       
+        <li class="printDesign">    
+          <a href="#printDesign" class="dropdown-toggle" data-target="" data-toggle="dropdown">
+            <span>         
+              Print Design        
+            </span>
+          </a>           
+            <ul class="dropdown-menu unstyled pull-left dropdown-printDesign">
+              <li class="">
+                <a href="#busCards" class="">
+                  <span>
+                    Bus Cards
+                  </span>
+                </a>
+              </li>          
+              <li class="">
+                <a href="#flyers" class="">
+                  <span>
+                    Flyers
+                  </span>
+                </a>
+              </li>           
+            </ul>
+        </li><!-- .printDesign -->                      
+        <li class="digitalDesign">
+          <a href="#digitalDesign">
+            <span>
+              Digital Design
+            </span>         
+          </a>
+        </li><!-- .digitalDesign -->                                    
+      </nav><!-- End navigation --> 
+  </div><!-- #container -->  
+</div><!-- #banner -->   
+                              
+<!-- ========================== -->
+<!-- = section - headpictures = -->
+<!-- ========================== -->  
+<section id="headpictures">        
+  <div id="reelscontainer">
+    <div id="slides" class="fadeIn">
+      <div class="slides_container">
+        <div>
+          <img src="/images/reels/reelone.jpg" width="1381" height="550">
+        </div>                                 
+        <div>
+          <img src="/images/reels/reeltwo.jpg" width="1381" height="550">
+        </div>                                          
+        <div>
+          <img src="/images/reels/reelthree.jpg" width="1381" height="550">  
+        </div>                                            
+        <div>
+          <img src="/images/reels/reelfour.jpg" width="1381" height="550">
+        </div>                                          
+      </div><!-- .slides_container -->
+    </div><!-- #slides -->  
+  </div><!-- .reelscontainer -->
+</section><!-- #headpictures -->
+ 
+ 
+  
+<!-- ======================== -->
+<!-- = section - socialFeed = -->
+<!-- ======================== -->
+<section id="socialFeed">                                          
+  <div class="container">  
+    <h4 class="with_icon">
+      <div class="icons camera"></div>A Snapshot of The Social Feed.</h4>
+    <p class="center"> 
+       The Social Feed was a communal dining concept, that doubled as a restaurant guide. Followers would browse and reserve communal meals online, then attend the events to meet other like-minded individuals and experiencing a restaurant tasting menu.<br> The service aimed at taking social networks offline, while providing advertising opportunities for those involved. <br> 	In July of 2012, The Social Feed was acquired by <a href="https://www.grubwithus.com">Grubwithus.</a><br><br>
+             What follows is a snapshot of the work produced for The Social Feed.                 
+    </p>              
+  </div><!-- .container -->
+<a name="digitalDesign"></a>       
+</section><!-- #socialFeed -->    
+
+<!-- =========================== -->
+<!-- = section - digitalDesign = -->
+<!-- =========================== -->
+<section id="digital">
+  <div class="container">   
+    <h2 class="center">Digital Design</h2>                           
+    <p class="center">As a web based service.  A majority of the content produced lived online.  From an interactive and constantly changing logo to specifically designed email templates, a consistent theme was utilized brand-wide.  <br><br></p>    
+                                        
+    <!-- ************** SLIDESHOWTWO DIGITALDESIGN -->                           
+      <div id="slides_two">  
+        <div class="slides_container">
+          <div>
+            <a href="/images/slides/fullscreen_header.jpg" rel="prettyPhoto[slides]"><img src="/images/slides/screen_header.jpg" width="650" height="400"></a>
+          </div>                                 
+          <div>
+            <a href="/images/slides/fullscreen_twitter.jpg" rel="prettyPhoto[slides]"><img src="/images/slides/screen_twitter.jpg" width="650" height="400"></a>
+          </div>                                          
+          <div>
+            <a href="/images/slides/fullscreen_logos.jpg" rel="prettyPhoto[slides]"><img src="/images/slides/screen_logos.jpg" width="650" height="400"></a>
+          </div>                                            
+          <div>
+            <a href="/images/slides/fullscreen_email.jpg" rel="prettyPhoto[slides]"><img src="/images/slides/screen_email.jpg" width="650" height="400"></a>
+          </div>  
+          <div>
+            <a href="/images/slides/fullscreen_invite.jpg" rel="prettyPhoto[slides]"><img src="/images/slides/screen_invite.jpg" width="650" height="400"></a>
+          </div>          
+        </div><!-- .slides_container --> 
+        
+        <a href="#" class="prev"><img src="/images/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+        <a href="#" class="next"><img src="/images/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+                  
+      </div><!-- #slides_two -->      
+    <img src="/images/cases-macair.png" width="940" height="550" alt="" id="macair">
+
+  </div><!-- .container -->
+<a name="printDesign"></a>     
+</section><!-- #digitalDesign -->
+                                         
+<!-- ========================= -->
+<!-- = section - printDesign = -->
+<!-- ========================= -->    
+<section id="print">
+  <div class="container">  
+    <h4 class="with_icon"><div class="icons crop"></div>Print Design.</h4>  
+    <p class="center">There might still be something charming about tangible things. A crisp business card, a colourful flyer to stumble upon.<br> Yet after blowing more than a years worth of hosting on only the first run of print, never again.</p>
+  </div><!-- #container -->
+</section>
+                
+<!-- ====================== -->
+<!-- = section - busCards = -->
+<!-- ====================== -->   
+<div id="dropshadowOne">
+  <section id="busCards">
+<a name="busCards"></a>  
+    <div class="container">     
+        <div id="buscardstext">           
+          <h2 class="right">Bus Cards</h2>   
+          <p class="right">
+Black.<br><br>
+White.<br><br>
+Thickidy-thick card stock.<br><br>
+Just the way we like em.
+        </div><!-- #buscardstext -->
+     </p>
+     <img id="buscards" src="/images/buscards.png" width="627" height="377" alt="">
+    </div><!-- .container -->
+  </section><!-- #busCards -->  
+  
+  <!-- ==================== -->
+  <!-- = section - flyers = -->
+  <!-- ==================== -->   
+<a name="flyers"></a>   
+  <section id="flyers">
+    <div class="container"> 
+      <div id="flyerstext">    
+        <h2 class="left">Flyers</h2>
+        <p class="left">
+Littered throughout the indie coffee shops of Vancouver and Toronto.<br><br>
+From zero customers to a couple more than zero.<br><br>  
+Turns out print can still maybe kinda work.
+        </p>  
+      </div><!-- #flyerstext -->       
+     <img id="flyertop" src="/images/flyertop.png" width="566" height="377" alt=""> 
+     <img id="flyerbottom" src="/images/flyerbottom.png" width="566" height="377" alt="">
+    </div><!-- .container -->
+  </section><!-- #flyers -->    
+</div><!-- #dropshadowOne -->    
+
+
+
+<!-- =========================== -->
+<!-- = section - producedMedia = -->
+<!-- =========================== -->  
+<section id="producedMedia">     <a name="producedMedia"></a>
+  <div class="container"> 
+   <h4 class="with_icon"><div class="icons media"></div>Produced Media.</h4>          
+   <p class="center">The Social Feed had accounts with the majority of the online media accounts.  Flicker, Twitter, Pinterest, Facebook... <br> We did our best to provide top notch content through beautiful media.  Oh, and while we're talking,<br> we also have a few events coming up you'd really like.
+   </p>     
+  </div><!-- .container -->
+</section><!-- #producedMedia -->
+
+<!-- ====================== -->
+<!-- = section - pictures = -->
+<!-- ====================== --> 
+<a name="pictures"></a>
+<section id="pictures">
+  <div class="container"> 
+   <h2 class="center">Pictures</h2>  
+        
+<!-- prettyPhoto picture slideshow -->                                     
+   <a href="/images/pictures/picturesone.jpeg" rel="prettyPhoto[pictures]" title="Pictures"><img id="pictures" src="/images/iphone.png" width="250" height="515" alt="Pictures"></a>    
+   <div style="display:none;">
+     <a href="/images/pictures/picturestwo.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturesthree.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturesfour.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturesfive.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturessix.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturesseven.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/pictureseight.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturesnine.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturesten.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/pictureseleven.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturestwelve.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturesthirteen.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturesfourteen.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturesfifteen.jpeg" rel="prettyPhoto[pictures]"></a>
+     <a href="/images/pictures/picturessixteen.jpeg" rel="prettyPhoto[pictures]"></a>  
+   </div>  
+  </div><!-- .container -->
+</section><!-- #pictures -->
+
+<!-- =================== -->
+<!-- = section - video = -->
+<!-- =================== -->  
+<a name="video"></a>    
+<section id="video">
+  <div class="container">
+   <h2 class="center">Video</h2>
+   <img id="video" src="/images/video-border.png" width="850" height="497" alt="">                               
+   <iframe id="vimeo" src="http://player.vimeo.com/video/40784954" width="650" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div><!-- .container -->
+</section><!-- #video -->
+
+ 
+<!-- =========================== -->
+<!-- = section - copywriting = -->
+<!-- =========================== -->  
+<a name="copywriting"></a>  
+<section id="copywriting">
+  <div class="container">
+   <h4 class="with_icon"><div class="icons pen"></div>Copywriting.</h4>          
+   <p class="center">It was of utmost necessity to provide frivolous copywriting. "Community management" and "brand awareness" was centred around: innuendoes, puns, making fun of popular culture, making fun of food culture, and making fun of ourselves.
+   </p>     
+  </div><!-- .container -->
+</section><!-- #copywriting -->
+
+<!-- ========================== -->
+<!-- = sections - restaurants = -->
+<!-- ========================== -->   
+<div id="dropshadowTwo">
+  <section id="restaurants">
+    <div class="container">   
+     <a name="restaurants"></a> 
+     <h2 class="center">Restaurant Writeups</h2> 
+                                 
+     <p class="restaurantsLeft"> 
+      The Electric Owl<br>
+      In case you were wondering, The Social Feed is huge in Japan. Another greatness huge in Japan - Izakaya's - causal places for after work eating and drinking, with emphasis on the latter. And because all great inventions come from Japan (proof ), the Electric Owl took a little inspiration from the Izakaya concept and ran with it, all the way to Main street (and Georgia). Housed in the old American Hotel building and opened last May, why not drop by and "eat Japanese style snacks, prepared by a Vietnamese chef, in an Izakaya-inspired room, followed by a fortune cookie and a live band?" Gyozas, Nori Pockets, and Dipping Noodles at 7:25, followed by a DJ at 9 and a reggae band at 10. Good food and good people followed by good music. Don't forget to bring your noodle face shield. 
+     </p>        
+     <p class="restaurantsRight">
+      Cork & Fin<br>
+      It's getting harder to name a restaurant. All the good names are (taken). Consequently, it's probably best to leave the puns at home and cut right to the chase. Cork & Fin have done just that, choosing to showcase what they do best, market fresh seafood and a great selection of whites and reds.  Finding a slice of historic Gastown, (just off the entrance to the infamous Blood Alley) in the spring of 2010 owners Francis Regio and Elliot Hashimoto transformed one of Vancouver's oldest spaces into casual dining with a raw bar for everyone's favourite bi-valve. Featuring locally sourced seafood such as sawmill bay oysters, this Feed brings together great people and great food.  Social-ly Feed-nominal, perhaps? 
+     </p>            
+     <p class="restaurantsLeft">
+      Habit Lounge<br>
+      If you're under the impression that Canada's national treasures consist of coins (two-big) and (Bieber-mania), this Feed awaits to pleasantly surprise you and introduce the real Canadian goods - Canadian whisky.  And there's no better place to introduce such (Canadian Delights) than along a family style meal served up fresh at (Habit Lounge).  With decor designed from the concept of 70's Canadiana, Habit sets out to create a gathering place where the local neighbourhood comes to meet and you're assured of feeling right at home.  For this Feed, Habit Lounge serves up the comfort food - Blood Alley Bitter Braised Beef and homemade pie.  As usual, no specific dress code (causal/trendy, leave the sweatpants at home), but if you choose to show up in Canada's lesser known treasure, the (Canadian Tuxedo), the whisky might just be on the house.
+     </p>                                                       
+     <p class="restaurantsRight">
+       Peckinpah BBQ<br>
+       If you live in Van, there are two ways to experience Carolina BBQ.  One involves inviting an accident by crushing 49 hours of interstate highways to get to (Raleigh), or if you don't feel like riskin' it for that brisket, jump on your fixie and cruise down to Peckingpah BBQ in Gastown.  Peckinpah stays true to North Carolina BBQ using a cookhouse smoker fuled by Tennessee white oak and serving the sauce proper - vinegar base with a hint of chilli.  This pork-centric menu showcases all the heavy hitters including pork ribs, pulled pork, and smoked brisket accompanied by all the fixins.  The only thing more impressive then this marathon of meat is Peckinpah's list of nearly 20 bourbons on the back shelf.  Seriously, please don't go drive to Carolina.  There's no point in leaving for the ball diamond if you've got a perfectly good patch of lawn in the backyard.    
+     </p>        
+     <p class="restaurantsLeft">
+     <a href="/restaurant_writeups.pdf" target="_blank" title="">More Copy.</a>
+     </p>     
+    </div><!-- .container -->
+  </section><!-- #restaurants -->
+  
+  <!-- ========================= -->
+  <!-- = section - socialMedia = -->
+  <!-- ========================= -->    
+  <section id="socialMedia">
+    <div class="container"> 
+     <a name="socialMedia"></a> 
+     <h2 class="center">Social Media</h2>
+     <p class="center">
+      "Social Media"- otherwise known as simply talking with the people that buy your product.<br> We tried to not be boring. You can't make friends with boring.<br>Example tweets follow.
+     </p>  
+     <p class="tweetblack">- Simple arithmetic: young people + booze + food + schmooze = The Social Feed </p>
+     <p class="tweetgrey">- Reason to Feed #94: Because it makes drinking on a Wednesday socially acceptable.</p>
+     <p class="tweetblack">- In case you haven't noticed...@socialfeedvan retweets your food pics to make your salad go viral. Take THAT #JustinBieber</p>
+     <p class="tweetgrey">- Pho, if you've never heard of it your missing out. If you've heard of it, you're probably mis-pronouncing it. Either way, two spots to get your slurp on. {link}</p> 
+     <p class="tweetblack">- Edgy, raw, a little offensive.  It's Friday, go hit a bone luge here. {link}</p>
+     <p class="tweetgrey">- Pentage Winery featured at tonights sold out #nubafeed. Time to ditch the daily grind and load up on wine.</p>
+     <p class="tweetblack">- Why we Feed #132: Because you've already seen Forrest Gump... 8 times.</p>
+     <p class="tweetgrey">- The Social Feed: For those who don't care whats re-runs are on TV tonight.</p>
+     <p class="tweetblack">- If your only experience with Ramen is the 40cent MSG packs you survived on in college, there's a whole other brothy, meaty world out there for you at Motomachi Shokudo. {link}</p>
+     <p class="tweetgrey">- Plan A, sit out a sweaty econ flight and even sweatier bus trip to coastal South America. Plan B, head {link} for Ceviche.</p>
+     <p class="tweetblack">- Long tables, fables. Toasting, boasting. 20-somethings, BBQ dumplings. Decanter, banter. Oysters...?</p>
+     <p class="tweetgrey">- A toast to those dishing out full sized chocolate bars at the door tonight. Happy Haloween.</p>
+     <p class="tweetblack">- If you don't not like feasting with outgoing people, don't not come to the Social Feed.</p>
+     <p class="tweetgrey">- Social Feed: It's way better than not Social Feed.</p>
+     <p class="tweetblack">- Meeting people in your city: Because calling the barista a sand-baggin' son of a bitch before ordering sprso is a good look.</p>     
+    </div><!-- .container -->
+  </section><!-- #socialMedia -->
+</div><!-- #dropshadowTwo -->      
+
+<!-- =================== -->
+<!-- = section - press = -->
+<!-- =================== -->  
+<section id="press">
+  <div class="container">  
+   <a name="press"></a> 
+   <h4 class="with_icon"><div class="icons press"></div>Press.</h4>
+   <br>                              
+   <div id="presslogos">       
+     <a href="http://betakit.com/2012/07/24/social-dining-startup-grubwithus-acquires-the-social-feed-expands-to-canada" target="_blank" id="betakit" alt=""></a>                                        
+     <a href="http://gigaom.com/2012/07/24/grubwithus-buys-the-social-feed-expands-dining-network-to-canada/" target="_blank" id="gigaom" alt=""></a>  
+     <a href="http://www.vancouversun.com" target="_blank" id="vancouversun" alt=""></a>
+     <a href="http://www.techvibes.com/blog/grubwithus-acquires-canadian-communal-dining-startup-the-social-feed-2012-07-24" target="_blank" id="techvibes" alt=""></a>                                 
+   </div><!-- #presslogos -->              
+<br>
+   <p>The Social Feed, inc.</p>          
+  </div><!-- .container -->
+</section><!-- #press -->      
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
+</script>
+</body>
+</html>                                    
